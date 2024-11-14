@@ -4,3 +4,5 @@
 
 11.11.2024 Portswigger lab SQL injection 3h
 
+14.11.2024 Username enumeration via different responses  2h
+
