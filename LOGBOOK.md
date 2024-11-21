@@ -6,3 +6,4 @@
 
 14.11.2024 Username enumeration via different responses and Unprotected admin functionality  2h
 
+21.11.2024 Introduction to Cybersecurity 2h
