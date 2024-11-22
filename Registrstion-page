@@ -1,0 +1,35 @@
+import { Application, Router } from "https://deno.land/x/oak/mod.ts";
+
+const app = new Application();
+const router = new Router();
+
+router.get("/", (context) => {
+  context.response.body = `
+    <html>
+      <body>
+        <h1>Registration Page</h1>
+        <form action="/register" method="post">
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required>
+          <br>
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required>
+          <br>
+          <button type="submit">Register</button>
+        </form>
+      </body>
+    </html>
+  `;
+});
+
+router.post("/register", async (context) => {
+  const body = await context.request.body({ type: "form" }).value;
+  const username = body.get("username");
+  const password = body.get("password");
+  context.response.body = `User ${username} registered successfully!`;
+});
+
+app.use(router.routes());
+app.use(router.allowedMethods());
+
+await app.listen({ port: 8000 });
