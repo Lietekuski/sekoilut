@@ -11,3 +11,6 @@
 21.11.2024  Docker 2h
 
 22.11.2024 Docker 5h
+
+24.11.2024 docke / ZAP hajoilua 3h (kun ei osaa niin..)
+
