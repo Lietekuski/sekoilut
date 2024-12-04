@@ -24,4 +24,4 @@
 
 3.12.2024 3h visualstudio / Docker
 
-4.12.2024 5h visualstudio / Docker
+4.12.2024 5h visualstudio / Docker / Tiedostopuu on järkevämmin koneellani, mutta tänne sitä en saanut
