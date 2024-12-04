@@ -14,3 +14,14 @@
 
 24.11.2024 docke / ZAP hajoilua 3h (kun ei osaa niin..)
 
+25.11.2024 2h Dicker
+
+27.11.2024 3h visualstudio / Docker
+
+28.11.2024 3h visualstudio / Docker
+
+1.12.2024 2h visualstudio / Docker
+
+3.12.2024 3h visualstudio / Docker
+
+4.12.2024 5h visualstudio / Docker
